@@ -1,0 +1,18 @@
+
+
+.flex-container{
+    display: flex;
+    gap: 10px;
+  }
+.list-applicable-items{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+.active-container{
+    display: flex;
+}
+input[type="checkbox"] {
+    margin-bottom: 55px;
+}
+  

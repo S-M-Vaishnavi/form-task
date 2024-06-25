@@ -1,0 +1,11 @@
+
+.checkbox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .ever-applied-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
