@@ -1,20 +1,14 @@
 import React from 'react';
-import './PreviousExperience.css';
+import './PreviousExperienceContd.css'
 import '../../src/App.css';
 
-const PreviousExperience = () => {
+const PreviousExperienceContd = () => {
     return (
         <div className="form-style-10">
             <form>
-                <div className="section"><span>3</span>Previous Experience (Start with current or most recent employer)</div>
+                <div className="section"><span>4</span>Previous Experience, Contd.</div>
                 <div className="inner-wrap">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Title</th>
-                                <th>Details</th>
-                            </tr>
-                        </thead>
+                <table>
                         <tbody>
                             <tr>
                                 <td><strong>From (Month/Year)</strong></td>
@@ -34,7 +28,12 @@ const PreviousExperience = () => {
                             </tr>
                             <tr>
                                 <td><strong>
-                                    To (Month/Year)</strong></td>
+                                    Last Salary</strong></td>
+                                <td><input type="text" /></td>
+                            </tr>
+                            <tr>
+                                <td><strong>
+                                   To (Month/Year)</strong></td>
                                 <td><input type="text" /></td>
                             </tr>
                             <tr>
@@ -72,4 +71,4 @@ const PreviousExperience = () => {
     )
 }
 
-export default PreviousExperience
+export default PreviousExperienceContd
